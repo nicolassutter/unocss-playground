@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.16.19",
+    "@unocss/nuxt": "^0.53.5",
+    "@unocss/preset-wind": "^0.53.5",
+    "nuxt": "^3.6.3"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.53.5",
+    "radash": "^11.0.0"
+  }
+}
